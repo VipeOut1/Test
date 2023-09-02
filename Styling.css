@@ -33,9 +33,14 @@ main{
     margin: 0 auto;
     padding: 20px;
 }
+
 main img{
     max-width: 100%;
     border-radius: 30px;
+}
+img.Child{
+    max-width: 60%;
+    border-radius: 0px;
 }
 h2{
     font-size: 28;
@@ -46,4 +51,26 @@ p.Italic{
     color:#797D7F ;
     margin-top: 0px;
     font-style: italic;
+}
+footer{
+    background-color: #202020;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: #2A3492;
+}
+footer a:hover{
+    opacity: .6;
+    background-color: transparent;
+}
+a{
+    color: #797D7F;
+}
+a:hover{
+    color: #B3B6B7;
 }
